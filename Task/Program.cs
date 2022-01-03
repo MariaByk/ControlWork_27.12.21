@@ -5,7 +5,7 @@
     int index = 0;
     for (index = 0;index < length;index++)
     {
-        collection[index] = new Random().Next(1,10);       
+        collection[index] = new Random().Next(-9,10);       
         if (collection[index] % 2 == 0) i++;
     }
     PrintArray(collection);
@@ -37,6 +37,6 @@ void PrintArray(int[] col)
 }
 
 
-int[] array = new int[6];
+int[] array = new int[10];
 Array(array);
 
